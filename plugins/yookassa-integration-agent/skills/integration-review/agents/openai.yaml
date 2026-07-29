@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ревью интеграции ЮKassa"
+  short_description: "Ревьюит код и настройки ЮKassa"
+  default_prompt: "Проведи ревью интеграции ЮKassa в этом проекте."

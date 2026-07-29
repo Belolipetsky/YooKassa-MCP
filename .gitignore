@@ -1,0 +1,8 @@
+node_modules/
+plugins/yookassa-integration-agent/server/dist/types/
+plugins/yookassa-integration-agent/server/dist/index.js.map
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example

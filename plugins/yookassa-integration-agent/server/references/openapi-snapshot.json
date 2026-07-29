@@ -1,0 +1,22 @@
+{
+  "source": "https://yookassa.ru/developers/api/yookassa-openapi-specification.yaml",
+  "capturedAt": "2026-07-29",
+  "upstreamSha256": "2b33d2a20996db8adb9c531aa0c8b6bfca31cf69e99782e74229b564996579be",
+  "apiBaseUrl": "https://api.yookassa.ru/v3",
+  "scope": "Curated operation catalog derived from the pinned upstream snapshot; the full upstream YAML is not redistributed.",
+  "operations": [
+    {"id":"create_payment","method":"POST","path":"/payments","summary":"Создать платеж","write":true,"idempotenceKey":true},
+    {"id":"list_payments","method":"GET","path":"/payments","summary":"Получить список платежей","write":false,"idempotenceKey":false},
+    {"id":"get_payment","method":"GET","path":"/payments/{payment_id}","summary":"Получить платеж","write":false,"idempotenceKey":false},
+    {"id":"capture_payment","method":"POST","path":"/payments/{payment_id}/capture","summary":"Подтвердить платеж","write":true,"idempotenceKey":true},
+    {"id":"cancel_payment","method":"POST","path":"/payments/{payment_id}/cancel","summary":"Отменить платеж","write":true,"idempotenceKey":true},
+    {"id":"create_payment_method","method":"POST","path":"/payment_methods","summary":"Создать способ оплаты","write":true,"idempotenceKey":true},
+    {"id":"get_payment_method","method":"GET","path":"/payment_methods/{payment_method_id}","summary":"Получить способ оплаты","write":false,"idempotenceKey":false},
+    {"id":"create_refund","method":"POST","path":"/refunds","summary":"Создать возврат","write":true,"idempotenceKey":true},
+    {"id":"list_refunds","method":"GET","path":"/refunds","summary":"Получить список возвратов","write":false,"idempotenceKey":false},
+    {"id":"get_refund","method":"GET","path":"/refunds/{refund_id}","summary":"Получить возврат","write":false,"idempotenceKey":false},
+    {"id":"create_receipt","method":"POST","path":"/receipts","summary":"Создать чек","write":true,"idempotenceKey":true},
+    {"id":"list_receipts","method":"GET","path":"/receipts","summary":"Получить список чеков","write":false,"idempotenceKey":false},
+    {"id":"get_receipt","method":"GET","path":"/receipts/{receipt_id}","summary":"Получить чек","write":false,"idempotenceKey":false}
+  ]
+}
