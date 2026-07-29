@@ -1,0 +1,4 @@
+interface:
+  display_name: "Реализация ЮKassa"
+  short_description: "Пишет код интеграции ЮKassa"
+  default_prompt: "Помоги реализовать интеграцию ЮKassa в этом проекте."

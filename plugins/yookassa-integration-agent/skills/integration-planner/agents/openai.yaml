@@ -1,0 +1,4 @@
+interface:
+  display_name: "Планировщик интеграции ЮKassa"
+  short_description: "Проектирует безопасную интеграцию ЮKassa"
+  default_prompt: "Спроектируй интеграцию ЮKassa для моего проекта."

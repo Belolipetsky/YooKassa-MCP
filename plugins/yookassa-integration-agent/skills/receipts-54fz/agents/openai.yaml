@@ -1,0 +1,4 @@
+interface:
+  display_name: "Чеки ЮKassa и 54-ФЗ"
+  short_description: "Проверяет сценарии чеков по 54-ФЗ"
+  default_prompt: "Проверь схему чеков ЮKassa и требования 54-ФЗ."

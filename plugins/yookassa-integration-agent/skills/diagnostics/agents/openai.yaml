@@ -1,0 +1,4 @@
+interface:
+  display_name: "Диагностика ЮKassa"
+  short_description: "Диагностирует тестовый магазин ЮKassa"
+  default_prompt: "Проведи безопасную диагностику тестового магазина ЮKassa."
