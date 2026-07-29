@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "yookassa_integration": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "./server/dist/index.js"
+      ],
+      "cwd": ".",
+      "env_vars": [
+        "YOOKASSA_SHOP_ID",
+        "YOOKASSA_SECRET_KEY"
+      ],
+      "default_tools_approval_mode": "auto"
+    }
+  }
+}
